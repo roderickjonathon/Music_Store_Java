@@ -21,6 +21,15 @@ public class InstrumentTest {
         djembe = new Djembe("Handmade", 150, 300, MakeType.YAMAHA, "N/A");
     }
 
+    @Test
+    public void canGetMake() {
+        assertEquals(MakeType.BUSCHER, saxophone.getMake());
+    }
+
+    @Test
+    public void canGetModel() {
+        assertEquals("Loudboi100", saxophone.getModel());
+    }
 
     @Test
     public void instrumentsCanMakeSound(){

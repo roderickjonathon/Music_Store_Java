@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8920ee04-99fe-48b2-81cc-9a84c4d8719c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InstrumentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InstrumentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InstrumentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InstrumentTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,12 +48,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShopTest">
-    <configuration name="InstrumentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.InstrumentTest.canGetModel">
+    <configuration name="InstrumentTest.canGetMake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Music_Shop_Java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="InstrumentTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="canGetMake" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InstrumentTest.canGetModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Music_Shop_Java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InstrumentTest" />
+      <option name="METHOD_NAME" value="canGetModel" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,23 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopTest.canRemoveItemsFromStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Music_Shop_Java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShopTest" />
-      <option name="METHOD_NAME" value="canRemoveItemsFromStock" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InstrumentTest.canGetModel" />
+        <item itemvalue="JUnit.InstrumentTest.canGetMake" />
         <item itemvalue="JUnit.ShopTest" />
         <item itemvalue="JUnit.ShopTest.canGetTotalProfitofStock" />
         <item itemvalue="JUnit.ShopTest.canAddItemsToStock" />
-        <item itemvalue="JUnit.ShopTest.canRemoveItemsFromStock" />
-        <item itemvalue="JUnit.InstrumentTest" />
       </list>
     </recent_temporary>
   </component>
