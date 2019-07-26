@@ -1,5 +1,6 @@
 import behaviours.ISell;
 import instruments.Djembe;
+import instruments.MakeType;
 import instruments.Saxophone;
 import instruments.Synthesiser;
 import org.junit.Before;
@@ -13,14 +14,15 @@ public class ShopTest {
     ISell saxophone;
     ISell synthesiser;
     ISell djembe;
+    MakeType make;
 
 
 
     @Before
     public void setup(){
-        saxophone = new Saxophone("Brass", 300,500, "Buscher", "Loudboi100");
-        synthesiser = new Synthesiser("Digital", 250, 400, "Korg", "Mini-Korg");
-        djembe = new Djembe("Handmade", 150, 300, "Custom", "N/A");
+        saxophone = new Saxophone("Brass", 300,500, MakeType.BUSCHER, "Loudboi100");
+        synthesiser = new Synthesiser("Digital", 250, 400, MakeType.KORG, "Mini-Korg");
+        djembe = new Djembe("Handmade", 150, 300, MakeType.YAMAHA, "N/A");
 
         shop = new Shop("Jonny's Noise");
     }

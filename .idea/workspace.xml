@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8920ee04-99fe-48b2-81cc-9a84c4d8719c" name="Default Changelist" comment="" />
+    <list default="true" id="8920ee04-99fe-48b2-81cc-9a84c4d8719c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -25,6 +30,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1OXn3hYXGZr4a1u4WihJakTc0YL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -37,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShopTest.canGetTotalProfitofStock">
+  <component name="RunManager" selected="JUnit.ShopTest">
     <configuration name="InstrumentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Music_Shop_Java" />
       <option name="PACKAGE_NAME" value="" />
@@ -88,10 +97,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShopTest" />
         <item itemvalue="JUnit.ShopTest.canGetTotalProfitofStock" />
         <item itemvalue="JUnit.ShopTest.canAddItemsToStock" />
         <item itemvalue="JUnit.ShopTest.canRemoveItemsFromStock" />
-        <item itemvalue="JUnit.ShopTest" />
         <item itemvalue="JUnit.InstrumentTest" />
       </list>
     </recent_temporary>
@@ -108,5 +117,16 @@
       <updated>1564132611155</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
